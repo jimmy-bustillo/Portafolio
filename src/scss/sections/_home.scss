@@ -2,7 +2,6 @@
 @use "base/mixins" as m;
 
 .home {
-  height: rem;
   background-color: v.$primario;
   width: 100%;
   text-align: center;
@@ -14,7 +13,8 @@
   padding: 5rem 0;
 
   @include m.tablet {
-    height: 60rem;
+    gap: 10rem;
+    padding: 10rem 0;
   }
 
   &__heading {
