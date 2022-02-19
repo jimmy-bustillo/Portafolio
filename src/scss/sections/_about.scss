@@ -31,11 +31,6 @@
     span {
       font-weight: bold;
     }
-    &--left {
-      @include m.desktop {
-        text-align: left;
-      }
-    }
   }
 
   &__h3 {
