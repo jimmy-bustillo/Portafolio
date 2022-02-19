@@ -38,6 +38,7 @@
   color: v.$primario;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
+  text-align: center;
 
   &::after {
     content: "";
@@ -47,5 +48,11 @@
     height: 1rem;
     background-color: v.$secundario;
     border-radius: 1rem;
+  }
+}
+
+.text-left {
+  @include m.desktop {
+    text-align: left;
   }
 }
