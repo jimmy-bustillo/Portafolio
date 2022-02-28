@@ -2,6 +2,9 @@
 @use "base/mixins" as m;
 
 .proyecto {
+  background-color: v.$blanco;
+  padding: 5rem 0;
+
   &__info {
     display: flex;
     flex-direction: column;
