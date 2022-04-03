@@ -3,18 +3,18 @@
 
 .home {
   background-color: v.$primario;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 5rem;
-  padding: 5rem 0;
+  &__container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+    padding: 10rem 0;
+  }
 
   @include m.tablet {
     gap: 10rem;
-    padding: 10rem 0;
   }
 
   &__heading {
@@ -39,6 +39,13 @@
     @include m.tablet {
       font-size: 2rem;
       width: 50%;
+    }
+  }
+
+  &__btn {
+    @include m.boton;
+    @include m.desktop {
+      width: 33.5rem;
     }
   }
 }
