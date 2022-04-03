@@ -16,7 +16,9 @@
   <body>
     <header class="header contenedor">
       <div class="header__logo">
-        <img src="build/img/logo.svg" alt="logo imagen" />
+        <a href="#">
+          <img src="build/img/logo.svg" alt="logo imagen" />
+        </a>
       </div>
       <div class="header__menu-icon">
         <img src="build/img/menu_icon.svg" alt="menu icon" />
@@ -30,12 +32,14 @@
     </header>
 
     <section class="home">
-      <h2 class="home__heading">Hey, mi nombre es Jimmy Bustillo</h2>
-      <p class="home__text">
-        Soy un desarrollador Frontend, me gusta hacer cosas divertidas con
-        codigo, haciendo que se mire hermoso y facil para los usuarios.
-      </p>
-      <a href="#" class="btn btn-w90">Projects</a>
+      <div class="home__container contenedor">
+        <h2 class="home__heading">Hola, mi nombre es Jimmy Bustillo</h2>
+        <p class="home__text">
+          Soy un desarrollador Frontend, me gusta hacer cosas divertidas con
+          codigo, haciendo que se mire hermoso y facil para los usuarios.
+        </p>
+        <a class="home__btn" href="#">Projects</a>
+      </div>
     </section>
 
     <section class="about contenedor">
@@ -61,7 +65,7 @@
           Sientete libre de <span>contactarme.</span>
         </p>
 
-        <a href="#" class="btn btn-about">Contact</a>
+        <a class="about__boton" href="#">Contact</a>
       </div>
 
       <div class="about__skills">
