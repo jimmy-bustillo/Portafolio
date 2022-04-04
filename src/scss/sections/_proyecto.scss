@@ -12,6 +12,10 @@
     align-items: center;
   }
 
+  &__heading {
+    @include m.heading;
+  }
+
   &__text {
     color: v.$grisOscuro;
     text-align: center;
