@@ -72,23 +72,7 @@
 }
 
 @mixin heading {
-  color: v.$primario;
-  text-transform: uppercase;
-  letter-spacing: 0.4rem;
   text-align: center;
-
-  &::after {
-    content: "";
-    display: block;
-    margin: 2rem auto 0 auto;
-    width: 30%;
-    height: 1rem;
-    background-color: v.$secundario;
-    border-radius: 1rem;
-  }
-}
-
-@mixin heading {
   font-size: 3.2rem;
   text-transform: uppercase;
   color: v.$primario;
