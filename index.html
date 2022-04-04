@@ -156,5 +156,47 @@
         </div>
       </div>
     </main>
+
+    <form class="formulario">
+      <div class="formulario__info">
+        <h2 class="formulario__heading">Contact</h2>
+        <p class="formulario__text">
+          Puedes contactarme llenando el siguiente formulario, sera un placer
+          atenderte.
+        </p>
+        <div class="formulario__container">
+          <div class="formulario__campo">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <input
+              id="nombre"
+              type="text"
+              class="formulario__input"
+              placeholder="Tu nombre"
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <label for="email" class="formulario__label">Email</label>
+            <input
+              id="email"
+              type="email"
+              class="formulario__input"
+              placeholder="Tu email"
+            />
+          </div>
+
+          <div class="formulario__campo">
+            <label for="mensaje" class="formulario__label">Mensaje</label>
+            <textarea
+              class="formulario__mensaje"
+              id="mensaje"
+              placeholder="Tu mensaje"
+            ></textarea>
+          </div>
+
+          <input class="formulario__submit" type="submit" value="Enviar" />
+        </div>
+      </div>
+    </form>
   </body>
 </html>
