@@ -1,0 +1,50 @@
+@use "base/variables" as v;
+@use "base/mixins" as m;
+
+.footer {
+  padding: 10rem 0 4rem 0;
+  background-color: v.$negro;
+
+  &__container {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+  }
+
+  &__text {
+    color: v.$blanco;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+
+  &__nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+
+  &__icon {
+    img {
+      width: 2.5rem;
+    }
+  }
+
+  &__divider {
+    display: block;
+    width: 100%;
+    height: 0.8rem;
+    background-color: v.$grisOscuro;
+    margin-bottom: 8rem;
+    border-radius: 1rem;
+  }
+
+  &__copyright {
+    text-align: center;
+    color: v.$blanco;
+    font-size: 1.2rem;
+  }
+}
